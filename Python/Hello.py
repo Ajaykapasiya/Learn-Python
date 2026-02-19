@@ -158,14 +158,87 @@ else:
 # s = "Python Is Fun"
 # print(" ".join(word[::-1] for word in s.split(' ')[::-1]))
 
-l1 =[10,20,40,10,50,20,50,60]
+# l1 =[10,20,40,10,50,20,50,60]
 
-l2 = list(set(l1))
-print(l2)
-
-
+# l2 = list(set(l1))
+# print(l2)
 
 
+# s1 = {10,20,30,40,40,30,50,60}
+# print(s1)
+
+# s2 = list(s1)
+# print(s2)
+# print(s2[3])
+
+
+# d1 ={
+#     "name":"Ajay",
+#     "age":23,
+#     "city":"Noida"
+# }
+
+# print(d1)
+# print(d1["name"])
+# for k in d1:
+#     print(k)
+
+# for k in d1:
+#     print(k,d1[k])
+
+# del d1["age"]
+# print(d1)
 
 
 
+# num1 = int(input("Enter the number:"))
+# num2 = int(input("Enter the number:"))
+
+# operation = input("Enter the operation (+,-,*,/)")
+
+# if operation == '+':
+#     result = num1+num2
+# elif operation == '-':
+#     result = num1-num2
+# elif operation == '*':
+#     result = num1*num2
+# elif operation == '/':
+#     if num1 != 0:
+#      result = num1 / num2
+#     else:
+#        result=("Error! Division by zero")
+# else:
+#    print("Operation in incorrect")
+
+# print("result:",result)
+
+
+# class Car:
+#     def __init__(self,brand,model):
+#         self.brand = brand
+#         self.model = model
+
+#     def info(self):
+#         print(f"The car brand is {self.brand} and its model is {self.model}.")
+
+# my_car = Car("BMW","340i")
+# # my_car.info()
+# print(my_car.brand,my_car.model )
+
+
+num = int(input("Enter a number: "))
+
+if num <= 1:
+    print("Not a Prime Number")
+else:
+    is_prime = True
+    
+    for i in range(2, num):
+        if num % i == 0:
+            is_prime = False
+            break
+    
+    if is_prime:
+        print("Prime Number")
+    else:
+        print("Not a Prime Number")
