@@ -84,5 +84,16 @@
 # print(sum(1 for c in "PyTHon" if c.islower()))
 
 
+# Count digits
+# s = "abc123"
+# print(sum(1 for c in s if c.isdigit()))
+
+
+#Capitalize first & last letter
+# s = "python"
+# print(s[0].upper() + s[1:-1] + s[-1].upper())
+
+
+
 
 
