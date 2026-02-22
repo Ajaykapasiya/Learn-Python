@@ -305,3 +305,20 @@
 #     print("*" * i)
 # for i in range(n,0,-1):
 #     print("*" * i)
+
+
+# s1 = ["Java", "Test"]
+
+# s2 = [w[::-1] for w in s1[::-1]]
+# print(s2)
+
+# s = "Python is easy"
+# s1 = s[::-1]
+# print(s1)
+
+
+# s = "Python is easy"
+# print(" ".join(w[::-1] for w in s.split()))
+
+s = "Hello World"
+print(" ".join(s.split()[::-1]))

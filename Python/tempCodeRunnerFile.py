@@ -1,1 +1,1 @@
-.join
+reversed(s2)
